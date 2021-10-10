@@ -1,3 +1,10 @@
+# not my data
+examples/data/
+examples/*.html
+
+# pycharm
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
