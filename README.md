@@ -1,2 +1,2 @@
 # timeseries-pytorch
-A pytorch extension for timeseries package.
+`timeseries-pytorch` is an extension to `timeseries` package. It provides facades for pytorch models and datasets.
