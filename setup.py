@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="timeseries-pytorch",
-    version="0.0.1",
+    version="0.0.2",
     author="Krzysztof Piesiewicz",
     author_email="krz.piesiewicz@gmail.com",
     description="A pytorch extension for timeseries package",
@@ -24,7 +24,8 @@ setuptools.setup(
     ],
     install_requires=[
         "pandas>=1.0.5",
-        "numpy~=1.19.0",
+        "numpy>=1.19.0",
+        "torch>=1.8.0"
     ],
     test_requirements=["pytest>=6.2.0"],
     python_requires='>=3.6',
